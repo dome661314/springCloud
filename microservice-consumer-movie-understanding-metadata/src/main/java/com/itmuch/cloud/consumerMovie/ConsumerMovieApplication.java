@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ConsumerMovieMetadataApplication {
+public class ConsumerMovieApplication {
 
     @Bean
     public RestTemplate restTemplate() {
@@ -16,7 +16,7 @@ public class ConsumerMovieMetadataApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerMovieMetadataApplication.class, args);
+        SpringApplication.run(ConsumerMovieApplication.class, args);
     }
 
 }

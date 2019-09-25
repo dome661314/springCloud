@@ -31,6 +31,6 @@ public class MovieController {
 
     @GetMapping("user-instance")
     public List<ServiceInstance> showInfo(){
-        return this.discoveryClient.getInstances("microservice-provider-user-metadata");
+        return this.discoveryClient.getInstances("microservice-provider-user");
     }
 }
