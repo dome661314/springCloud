@@ -1,6 +1,6 @@
-package com.itmuch.cloud.providerUser.dao;
+package com.itmuch.cloud.provider.dao;
 
-import com.itmuch.cloud.ProviderUser.model.User;
+import com.itmuch.cloud.provider.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

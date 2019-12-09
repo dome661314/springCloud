@@ -1,4 +1,4 @@
-package com.itmuch.cloud.providerUser;
+package com.itmuch.cloud.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

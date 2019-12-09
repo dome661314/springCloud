@@ -1,6 +1,4 @@
-package com.itmuch.cloud.providerUser.model;
-
-import lombok.Data;
+package com.itmuch.cloud.provider.model;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
