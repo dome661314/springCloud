@@ -1,4 +1,4 @@
-package com.itmuch.cloud.consumerMovie;
+package com.itmuch.cloud.ribbon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class MovieRibbonCustomizingApplication {
+public class ConsumerRibbonApplication {
 
     @Bean
     @LoadBalanced
@@ -18,7 +18,7 @@ public class MovieRibbonCustomizingApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MovieRibbonCustomizingApplication.class, args);
+        SpringApplication.run(ConsumerRibbonApplication.class, args);
     }
 
 }
