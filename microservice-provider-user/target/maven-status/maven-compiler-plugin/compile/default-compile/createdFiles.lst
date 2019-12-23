@@ -1,0 +1,4 @@
+com/itmuch/cloud/providerUser/controller/UserController.class
+com/itmuch/cloud/providerUser/ProviderUserApplication.class
+com/itmuch/cloud/providerUser/dao/UserRepository.class
+com/itmuch/cloud/providerUser/model/User.class
