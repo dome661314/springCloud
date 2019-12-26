@@ -1,13 +1,12 @@
 server:
-  port: 8010
+  port: 8020
 
 user:
   userServiceUrl: http://localhost:8080/
 
 spring:
   application:
-    name: microservice-consumer-movie-ribbon-hystrix
-
+    name: microservice-consumer-movie-feign-hystrix-fallback-stream
 eureka:
   client:
     service-url:
