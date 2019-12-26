@@ -1,0 +1,15 @@
+server:
+  port: 8050
+eureka:
+  client:
+    service-url:
+      default: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: microservice-file-upload
+  servlet:
+    multipart:
+      max-file-size: -1
+      enabled: true
